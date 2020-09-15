@@ -1,0 +1,35 @@
+{
+  "apiPort": "9999",
+  "proxies": [
+    {
+      "port": "1000",
+      "target": "127.0.0.1:3306",
+      "desc": "mysql",
+      "ctl": {
+        "in": {
+          "lossRate": 0,
+          "delayMs": 0
+        },
+        "out": {
+          "lossRate": 0,
+          "delayMs": 0
+        }
+      }
+    },
+    {
+      "port": "1001",
+      "target": "127.0.0.1:8080",
+      "desc": "spring-boot-web",
+      "ctl": {
+        "in": {
+          "lossRate": 0,
+          "delayMs": 0
+        },
+        "out": {
+          "lossRate": 0,
+          "delayMs": 0
+        }
+      }
+    }
+  ]
+}

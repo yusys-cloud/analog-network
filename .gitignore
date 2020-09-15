@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# vscode
+.vscode/
+
+# GoLand
+.idea/
+
+# Go dev build
+build/
+
+# coverage file
+*.out
+
+go.sum
